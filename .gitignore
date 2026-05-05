@@ -1,0 +1,88 @@
+# =========================
+# Python / Django
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Ambiente / Secrets
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# Virtual Environment
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Build / Distribuição
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Logs
+# =========================
+*.log
+log/
+logs/
+erro_log.txt
+ocorrencias.txt
+
+# =========================
+# Banco de dados
+# =========================
+db.sqlite3
+*.sqlite3
+
+# =========================
+# Media / Uploads
+# =========================
+media/
+!media/.gitkeep
+
+# =========================
+# Downloads específicos
+# =========================
+media/downloads/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Sistema Operacional
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Docker (opcional)
+# =========================
+*.pid
+*.sock
+
+# =========================
+# Arquivos temporários
+# =========================
+*.tmp
+*.bak
+*.old
+
+# =========================
+# Test / Coverage
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
